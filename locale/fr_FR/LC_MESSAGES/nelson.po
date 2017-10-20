@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nelson-numerical-software\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-10-20 14:42-0400\n"
+"PO-Revision-Date: 2017-10-20 14:52-0400\n"
 "Last-Translator: Nelson-numerical-software <nelson.numerical.computation@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -784,7 +784,7 @@ msgid "not supported."
 msgstr "non disponible"
 
 msgid "malformed."
-msgstr ""
+msgstr "mal formé."
 
 msgid "file does not exist."
 msgstr "Le fichier n'existe pas."
@@ -805,7 +805,7 @@ msgid "Version"
 msgstr ""
 
 msgid "Tag malformed."
-msgstr ""
+msgstr "Balise incorrecte."
 
 msgid "multiple chapter.xml definition."
 msgstr ""
@@ -886,7 +886,7 @@ msgid "undefined."
 msgstr "non défini."
 
 msgid "System error detected: "
-msgstr ""
+msgstr "Erreur système détectée: "
 
 msgid "System error detected."
 msgstr "Erreur systéme detectée."
@@ -921,7 +921,7 @@ msgid "Insufficient number of outputs."
 msgstr "Nombre incorrect d'arguments de sortie."
 
 msgid "Case not managed."
-msgstr ""
+msgstr "Cas non géré."
 
 msgid "out-of-order argument /"
 msgstr ""
@@ -1312,10 +1312,10 @@ msgid "Virtual Memory used by Nelson:"
 msgstr ""
 
 msgid "Physical Memory:"
-msgstr ""
+msgstr "Mémoire physique:"
 
 msgid "Virtual Memory:"
-msgstr ""
+msgstr "Mémoire Virtuelle:"
 
 msgid "A 'persistent' declaration is only allowed in a script file function."
 msgstr "Une déclaration « persistante » est uniquement autorisée dans une fonction de fichier de script."
