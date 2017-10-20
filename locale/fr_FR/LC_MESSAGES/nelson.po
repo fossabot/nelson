@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nelson-numerical-software\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-10-20 14:32-0400\n"
+"PO-Revision-Date: 2017-10-20 14:42-0400\n"
 "Last-Translator: Nelson-numerical-software <nelson.numerical.computation@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -532,7 +532,7 @@ msgid "function_handle not valid."
 msgstr "function_handle non valide."
 
 msgid "Nelson"
-msgstr ""
+msgstr "Nelson"
 
 msgid "Execute..."
 msgstr "Executer..."
@@ -550,7 +550,7 @@ msgid "&File"
 msgstr "&Fichier"
 
 msgid "&Execute..."
-msgstr ""
+msgstr "&Exécuter..."
 
 msgid "Execute a .nls file"
 msgstr "Executer un fichier .nls"
@@ -616,16 +616,16 @@ msgid "&Help"
 msgstr "&Aide"
 
 msgid "&Documentation"
-msgstr ""
+msgstr "&Documentation"
 
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 msgid "Nelson &website"
 msgstr ""
 
 msgid "Nelson website"
-msgstr ""
+msgstr "Site Web Nelson"
 
 msgid "B&ugs and Requests"
 msgstr ""
@@ -742,7 +742,7 @@ msgid "Bibliography"
 msgstr "Bibliographie"
 
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 msgid "File does not exist:"
 msgstr "Le fichier n'existe pas:"
