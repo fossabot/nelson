@@ -1,17 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: nelson\n"
+"Project-Id-Version: nelson-numerical-software\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-01-19 20:29+0000\n"
-"Last-Translator: Allan CORNET <nelson.numerical.computation@gmail.com>\n"
-"Language-Team: French "
-"<https://hosted.weblate.org/projects/nelson/translations/fr/>\n"
+"PO-Revision-Date: 2017-10-20 14:32-0400\n"
+"Last-Translator: Nelson-numerical-software <nelson.numerical.computation@gmail.com>\n"
+"Language-Team: French\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.11-dev\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: nelson-numerical-software\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /master/locale/en_US/LC_MESSAGES/nelson.po\n"
 
 msgid "Cannot apply numeric operation "
 msgstr "Vous ne pouvez pas appliquer une opération numérique"
@@ -82,8 +84,8 @@ msgstr "Tableaux à N-dimensions ne sont pas supportés."
 msgid "Size vector should be a row vector with real elements."
 msgstr ""
 
-msgid "'single' or 'double' expected at last argument."
-msgstr "'single' ou 'double' attendu en dernier argument."
+msgid "A supported type expected at last argument."
+msgstr ""
 
 msgid "'like' expected at n - 2 argument."
 msgstr "'like' attendu à l'argument n-2."
@@ -113,15 +115,12 @@ msgid "not allowed in base scope."
 msgstr "non autorisé dans le scope de base."
 
 msgid "Wrong value for #1 argument, 'fullpathext' or  'fullpath' expected."
-msgstr ""
-"Valeur incorrecte pour l'argument #1, 'fullpathext' ou 'fullpath' attendu."
+msgstr "Valeur incorrecte pour l'argument #1, 'fullpathext' ou 'fullpath' attendu."
 
 #, c-format
-msgid ""
-"at line %5d\n"
+msgid "at line %5d\n"
 "of '%s'\n"
-msgstr ""
-"à la ligne %5d \n"
+msgstr "à la ligne %5d \n"
 "de '%s'\n"
 
 #, c-format
@@ -147,15 +146,13 @@ msgid "Error: we cannot find Nelson binaries path."
 msgstr "Erreur : nous ne pouvons pas trouver le chemin des binaires de NelSon."
 
 msgid "Error: we cannot find Nelson root path."
-msgstr ""
-"Erreur : nous ne pouvons pas trouver le chemin d'accès racine de NelSon."
+msgstr "Erreur : nous ne pouvons pas trouver le chemin d'accès racine de NelSon."
 
 msgid "Error: we cannot create preferences path."
 msgstr "Erreur : nous ne pouvons pas créér le chemin des preferences de NelSon."
 
 msgid "Error: we cannot find Nelson preferences path."
-msgstr ""
-"Erreur : nous ne pouvons pas trouver le chemin des preferences de NelSon."
+msgstr "Erreur : nous ne pouvons pas trouver le chemin des preferences de NelSon."
 
 msgid "function not found."
 msgstr "fonction non trouvée."
@@ -164,9 +161,7 @@ msgid "Not yet implemented with dim > 2"
 msgstr "Pas encore implémenté avec dim > 2"
 
 msgid "Number of field names must match number of fields in new structure."
-msgstr ""
-"Nombre de noms de champs doit correspondre nombre de valeurs dans la "
-"structure constructeur."
+msgstr "Nombre de noms de champs doit correspondre nombre de valeurs dans la structure constructeur."
 
 msgid "function returned fewer outputs than expected"
 msgstr ""
@@ -217,27 +212,20 @@ msgid "-by-"
 msgstr "-par-"
 
 #, c-format
-msgid ""
-"\n"
-"  Columns %d to %d\n"
-"\n"
-msgstr ""
-"\n"
-"  Colonnes %d to %d\n"
-"\n"
+msgid "\n"
+"  Columns %d to %d\n\n"
+msgstr "\n"
+"  Colonnes %d to %d\n\n"
 
-msgid ""
-"using operator '-' \n"
+msgid "using operator '-' \n"
 " Matrix dimensions must agree."
 msgstr ""
 
-msgid ""
-"using operator '*' \n"
+msgid "using operator '*' \n"
 " Matrix dimensions must agree."
 msgstr ""
 
-msgid ""
-"using operator '+' \n"
+msgid "using operator '+' \n"
 " Matrix dimensions must agree."
 msgstr ""
 
@@ -286,8 +274,7 @@ msgstr ""
 msgid "Undefined function 'reshape' for input arguments of overloaded type."
 msgstr ""
 
-msgid ""
-"Undefined function 'reshape' for input arguments of type 'function_handle'."
+msgid "Undefined function 'reshape' for input arguments of type 'function_handle'."
 msgstr ""
 
 msgid "finite value expected."
@@ -424,8 +411,7 @@ msgstr "Nelson interpréteur non initialisé."
 msgid "Nelson interpreter not initialized.\n"
 msgstr "Interpréteur Nelson non initialisé.\n"
 
-msgid ""
-"Recursion stack not enough.\n"
+msgid "Recursion stack not enough.\n"
 "Please set C recursion stack to "
 msgstr ""
 
@@ -453,11 +439,9 @@ msgstr "une structure ou la chaîne « reset » attendu."
 msgid "called from:\n"
 msgstr "appelée à partir de :\n"
 
-msgid ""
-"\n"
+msgid "\n"
 "at line: "
-msgstr ""
-"\n"
+msgstr "\n"
 "à la ligne: "
 
 msgid " position: "
@@ -523,50 +507,14 @@ msgstr ""
 msgid "Not an existing directory:"
 msgstr "Répertoire existant attendu:"
 
+msgid "built-in"
+msgstr ""
+
+msgid "not found."
+msgstr "non trouvé."
+
 msgid "#2 Argument must be '-all' or  '-module'."
 msgstr "# 2 L'argument doit être '-all' ou '-module'."
-
-msgid "a valid function definition expected."
-msgstr "une définition de fonction valide attendue."
-
-msgid "filename and function name are not same ("
-msgstr ""
-
-msgid "). function not loaded."
-msgstr ""
-
-msgid "' already defined."
-msgstr "' déjà défini."
-
-msgid "Argument must be a valid filename."
-msgstr "L'argument doit être un nom de fichier valide."
-
-msgid "CryptText Function not loaded."
-msgstr ""
-
-msgid "UncryptText Function not loaded."
-msgstr ""
-
-msgid "UncryptText Function required."
-msgstr ""
-
-msgid " is defined in memory only."
-msgstr "est défini en mémoire."
-
-msgid " file does not exist."
-msgstr "Le fichier nexiste pas."
-
-msgid " cannot read file."
-msgstr "Impossible de lire le fichier"
-
-msgid " is already a protected macro."
-msgstr "est déjà une macro protégée."
-
-msgid " not a macro."
-msgstr "n'est pas une macro."
-
-msgid " not found."
-msgstr "non trouvé"
 
 msgid "#1 Argument must contain a valid function_handle."
 msgstr "Argument #1 doit contenir un function_handle valide."
@@ -673,6 +621,18 @@ msgstr ""
 msgid "Documentation"
 msgstr ""
 
+msgid "Nelson &website"
+msgstr ""
+
+msgid "Nelson website"
+msgstr ""
+
+msgid "B&ugs and Requests"
+msgstr ""
+
+msgid "Bugs and Requests"
+msgstr ""
+
 msgid "&About"
 msgstr "&A propos"
 
@@ -689,19 +649,19 @@ msgid "Help on Selection"
 msgstr "Aide sur le texte séléctionné"
 
 msgid "Ctrl + X"
-msgstr "Ctrl + X"
+msgstr ""
 
 msgid "Ctrl + Ins"
-msgstr "Ctrl + Ins"
+msgstr ""
 
 msgid "Ctrl + V"
-msgstr "Ctrl + V"
+msgstr ""
 
 msgid "Select All"
 msgstr "Tout sélectionner"
 
 msgid "Ctrl + A"
-msgstr "Ctrl + A"
+msgstr ""
 
 msgid "Clear Command Window"
 msgstr "Effacer la fenêtre de commande"
@@ -733,6 +693,9 @@ msgstr "fichier PDF non généré."
 msgid "pdf cannot generated in this engine mode."
 msgstr "fichier pdf non généré dans ce mode."
 
+msgid "Error markdown generation."
+msgstr ""
+
 msgid "Existing directory expected."
 msgstr "Répertoire existant attendu."
 
@@ -757,14 +720,11 @@ msgstr "Attention :"
 msgid "No warning."
 msgstr "Aucun avertissement."
 
-msgid ""
-"Wrong value for argument #1: An existing .xml documentation file expected."
-msgstr ""
-"Mauvaise valeur pour l'argument n °1: Un fichier .xml documentation attendu. "
+msgid "Wrong value for argument #1: An existing .xml documentation file expected."
+msgstr "Mauvaise valeur pour l'argument n °1: Un fichier .xml documentation attendu. "
 
 msgid "Wrong type for argument #1: .xml documentation file expected."
-msgstr ""
-"Type incorrect pour l'argument #1: Un fichier .xml documentation attendu"
+msgstr "Type incorrect pour l'argument #1: Un fichier .xml documentation attendu"
 
 msgid "HtmlFileToPdfFile not loaded."
 msgstr ""
@@ -782,7 +742,7 @@ msgid "Bibliography"
 msgstr "Bibliographie"
 
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 msgid "File does not exist:"
 msgstr "Le fichier n'existe pas:"
@@ -829,9 +789,6 @@ msgstr ""
 msgid "file does not exist."
 msgstr "Le fichier n'existe pas."
 
-msgid "not found."
-msgstr "non trouvé."
-
 msgid "has no property."
 msgstr "n'a aucune propriété."
 
@@ -845,7 +802,7 @@ msgid "History"
 msgstr "Historique"
 
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 msgid "Tag malformed."
 msgstr ""
@@ -922,11 +879,11 @@ msgstr "Argument #1: « max » attendu."
 msgid "Argument #1: valid value expected."
 msgstr "Argument #1: une valeur valide attendue."
 
-msgid "function "
+msgid "function"
 msgstr "fonction"
 
-msgid " undefined."
-msgstr "non défini"
+msgid "undefined."
+msgstr "non défini."
 
 msgid "System error detected: "
 msgstr ""
@@ -946,11 +903,9 @@ msgid "Encountered breakpoint at %s, line %d\n"
 msgstr ""
 
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "%d of %d:\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "%d de %d:\n"
 
 msgid "unable to resolve "
@@ -1026,7 +981,7 @@ msgid "returnVals: "
 msgstr ""
 
 msgid "arguments: "
-msgstr "arguments: "
+msgstr ""
 
 msgid "one or more outputs not assigned in call."
 msgstr ""
@@ -1044,11 +999,9 @@ msgid "Not enough outputs in varargout to satisfy call"
 msgstr ""
 
 #, c-format
-msgid ""
-"Lexical error '%s'\n"
+msgid "Lexical error '%s'\n"
 "\tat line %d of file %s"
-msgstr ""
-"Erreur lexical '%s'\n"
+msgstr "Erreur lexical '%s'\n"
 "\tà la ligne %d du fichier %s"
 
 #, c-format
@@ -1062,6 +1015,9 @@ msgstr "Erreur lexical"
 msgid "mismatched parenthesis"
 msgstr "parenthèses dépareillés"
 
+msgid "Maximum name length exceeded."
+msgstr ""
+
 msgid "unterminated string"
 msgstr "chaîne non terminée"
 
@@ -1072,24 +1028,25 @@ msgstr "dépasse la longueur maximale  des noms de NelSon de %d caractères."
 msgid "malformed floating point constant"
 msgstr "virgule flottante mal  formaté"
 
-msgid "function"
-msgstr "fonction"
-
-msgid "undefined."
-msgstr "non défini."
-
-msgid ") vs "
+msgid "Cannot open:"
 msgstr ""
 
-msgid ". function not loaded."
-msgstr ". Fonction non chargée."
+msgid "a valid function definition expected."
+msgstr "une définition de fonction valide attendue."
+
+msgid "filename and function name are not same ("
+msgstr ""
+
+msgid " vs "
+msgstr ""
+
+msgid "function not loaded."
+msgstr ""
 
 #, c-format
-msgid ""
-"Expecting %s\n"
+msgid "Expecting %s\n"
 "\tat line %d, column %d of file %s"
-msgstr ""
-"Attend %s\n"
+msgstr "Attend %s\n"
 "\tà la ligne %d, colonne %d du fichier %s"
 
 #, c-format
@@ -1270,6 +1227,9 @@ msgstr ""
 msgid "expecting keyword identifier after '/' in keyword assignment"
 msgstr ""
 
+msgid "Core Function not loaded."
+msgstr ""
+
 msgid "Input following 'like' is not a logical array."
 msgstr ""
 
@@ -1327,12 +1287,8 @@ msgstr ""
 msgid "Conversion to logical from sparse int64 is not possible."
 msgstr ""
 
-msgid ""
-"#1 Argument must contain a string: 'global', 'base', 'local' or 'caller' "
-"expected."
-msgstr ""
-"#1 argument doit contenir une chaîne: « global », « base », « local » ou « "
-"appelant » attendu."
+msgid "#1 Argument must contain a string: 'global', 'base', 'local' or 'caller' expected."
+msgstr "#1 argument doit contenir une chaîne: « global », « base », « local » ou « appelant » attendu."
 
 msgid "#2 Argument must contain a valid variable name."
 msgstr "#2 argument doit contenir un nom de variable valide."
@@ -1362,9 +1318,7 @@ msgid "Virtual Memory:"
 msgstr ""
 
 msgid "A 'persistent' declaration is only allowed in a script file function."
-msgstr ""
-"Une déclaration « persistante » est uniquement autorisée dans une fonction "
-"de fichier de script."
+msgstr "Une déclaration « persistante » est uniquement autorisée dans une fonction de fichier de script."
 
 msgid "#2 Argument must be an existing variable name."
 msgstr "#2 l'argument doit être un nom de variable existant."
@@ -1468,6 +1422,9 @@ msgstr "Mauvais OVERLOAD_TYPE."
 msgid "only one output argument expected."
 msgstr "Seule un argument de sortie attendu."
 
+msgid "'single' or 'double' expected at last argument."
+msgstr "'single' ou 'double' attendu en dernier argument."
+
 msgid "Too many dimensions! Current limit is"
 msgstr "Trop de dimensions ! Limite actuelle est"
 
@@ -1516,8 +1473,7 @@ msgstr ""
 msgid "Undefined function 'full' for input arguments."
 msgstr ""
 
-msgid ""
-"in I, J, V format, all three vectors must be the same size or be scalars."
+msgid "in I, J, V format, all three vectors must be the same size or be scalars."
 msgstr ""
 
 msgid "Index exceeds matrix dimensions."
@@ -1646,6 +1602,12 @@ msgstr "Impossible d'ajouter le fichier."
 msgid "Impossible to open file."
 msgstr "Impossible d'ouvrir le fichier."
 
+msgid "ID not supported."
+msgstr ""
+
+msgid "Wrong value for #1 argument: a valid file ID expected."
+msgstr "Mauvaise valeur pour l'argument n ° 1: un ID de fichier valide attendu."
+
 msgid "Wrong value for machine format."
 msgstr "Valeur incorrecte pour le format machine."
 
@@ -1676,18 +1638,13 @@ msgstr "Erreur : mémoire insuffisante."
 msgid "Endian conversion not supported for this file identifier."
 msgstr "Conversion Endian non pris en charge pour cet identifieur de fichier."
 
-msgid "Wrong value for #1 argument: a valid file ID expected."
-msgstr "Mauvaise valeur pour l'argument n ° 1: un ID de fichier valide attendu."
-
 msgid "Unable to open file "
 msgstr "Impossible d’ouvrir le fichier"
 
 msgid "Second argument a single string expected."
 msgstr ""
 
-msgid ""
-"First argument must be a cell of strings (or a string) and second argument a "
-"string."
+msgid "First argument must be a cell of strings (or a string) and second argument a string."
 msgstr ""
 
 msgid "Input strings must have one row."
@@ -1784,12 +1741,8 @@ msgstr "Temps écoulé: %f secondes."
 msgid "Cannot call toc."
 msgstr "Impossible d'appeler toc."
 
-msgid ""
-"You must call 'tic' without an output argument before calling 'toc' without "
-"an input argument."
-msgstr ""
-"Vous devez appeler « tic » sans un argument de sortie avant d'appeler « toc »"
-" sans argument d'entrée."
+msgid "You must call 'tic' without an output argument before calling 'toc' without an input argument."
+msgstr "Vous devez appeler « tic » sans un argument de sortie avant d'appeler « toc » sans argument d'entrée."
 
 msgid "Sun"
 msgstr "Dim"
@@ -1813,13 +1766,13 @@ msgid "Sat"
 msgstr "Sam"
 
 msgid "Jan"
-msgstr "Jan"
+msgstr ""
 
 msgid "Feb"
 msgstr "Fév"
 
 msgid "Mar"
-msgstr "Mar"
+msgstr ""
 
 msgid "Apr"
 msgstr "Avr"
@@ -1840,10 +1793,10 @@ msgid "Sep"
 msgstr "Sept"
 
 msgid "Oct"
-msgstr "Oct"
+msgstr ""
 
 msgid "Nov"
-msgstr "Nov"
+msgstr ""
 
 msgid "Dec"
 msgstr "Déc"
@@ -1876,9 +1829,7 @@ msgid "Undefined function 'atan' for input arguments of type"
 msgstr "Fonction 'atan' non définie pour les arguments d'entrée de type"
 
 msgid "This declaration is only allowed from a class constructor."
-msgstr ""
-"Cette déclaration est seulement autorisé à partir d'un constructeur de "
-"classe."
+msgstr "Cette déclaration est seulement autorisé à partir d'un constructeur de classe."
 
 msgid "Field names must be valid."
 msgstr ""
@@ -1941,8 +1892,7 @@ msgid "Reshape operation not allowed with N Dimensions sparse arrays."
 msgstr ""
 
 msgid "Byte size calculation not supported for sparse arrays."
-msgstr ""
-"Calcul de la taille octets non pris en charge pour les matrices creuses."
+msgstr "Calcul de la taille octets non pris en charge pour les matrices creuses."
 
 msgid "Cannot determine symmetry of sparse arrays"
 msgstr ""
@@ -1971,9 +1921,7 @@ msgstr ""
 msgid "Cannot convert cell-arrays to any other type."
 msgstr ""
 
-msgid ""
-"Cannot combine structures with different fields if the combination requires "
-"fields to be deleted from one of the structures."
+msgid "Cannot combine structures with different fields if the combination requires fields to be deleted from one of the structures."
 msgstr ""
 
 msgid "Cannot convert struct-arrays to any other type."
@@ -1991,9 +1939,7 @@ msgstr "Dimensions non valides."
 msgid "Cannot index into empty variable."
 msgstr "Ne peut pas indexer dans une variable vide."
 
-msgid ""
-"multidimensional indexing (more than 2 dimensions) not legal for sparse "
-"arrays"
+msgid "multidimensional indexing (more than 2 dimensions) not legal for sparse arrays"
 msgstr ""
 
 msgid "Size mismatch in assignment A(I) = B."
@@ -2002,12 +1948,8 @@ msgstr "Différence de taille dans l'affectation A (I) = B."
 msgid "Size mismatch in assignment A(I1,I2,...,In) = B."
 msgstr "Différence de taille dans l'affectation A (I1, I2, ..., In) = B."
 
-msgid ""
-"multidimensional indexing (more than 2 dimensions) not legal for sparse "
-"arrays in assignment A(I1,I2,...,IN) = B"
-msgstr ""
-"indexation multidimensionnelle (plus de 2 dimensions) non légal pour "
-"matrices creuses en affectation A (I1, I2, ..., IN) = B"
+msgid "multidimensional indexing (more than 2 dimensions) not legal for sparse arrays in assignment A(I1,I2,...,IN) = B"
+msgstr "indexation multidimensionnelle (plus de 2 dimensions) non légal pour matrices creuses en affectation A (I1, I2, ..., IN) = B"
 
 msgid "Statement A(...) = [] can only contain one non-colon index."
 msgstr ""
@@ -2020,21 +1962,15 @@ msgid "\tMatrix is sparse with %d nonzeros\n"
 msgstr "\tLa matrice est creuse avec %d nonzeros\n"
 
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Columns %d to %d\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Colonnes %d à %d\n"
 
-msgid ""
-"\n"
-"... Output truncated - use setprintlimit function to see more of the output "
-"...\n"
-msgstr ""
-"\n"
-"... Sortie tronquée - Utiliser la fonction setprintlimit pour voir plus de "
-"la sortie ...\n"
+msgid "\n"
+"... Output truncated - use setprintlimit function to see more of the output ...\n"
+msgstr "\n"
+"... Sortie tronquée - Utiliser la fonction setprintlimit pour voir plus de la sortie ...\n"
 
 msgid "Expected a scalar."
 msgstr "Un scalaire attendu."
@@ -2045,8 +1981,7 @@ msgstr "Un entier attendu"
 msgid "NaN and Inf not allowed."
 msgstr "NaN et Inf non autorisé."
 
-msgid ""
-"Dimension argument must be a positive integer scalar within indexing range."
+msgid "Dimension argument must be a positive integer scalar within indexing range."
 msgstr ""
 
 msgid "Expected integer index."
@@ -2088,8 +2023,7 @@ msgstr ""
 msgid "setVectorContents not supported for sparse arrays."
 msgstr ""
 
-msgid ""
-"In expression A{I} = B, I must reference a single element of cell-array A."
+msgid "In expression A{I} = B, I must reference a single element of cell-array A."
 msgstr ""
 
 msgid "Illegal negative index in expression A{I} = B."
@@ -2098,9 +2032,7 @@ msgstr ""
 msgid "setNDimContents not supported for sparse arrays."
 msgstr ""
 
-msgid ""
-"In expression A{I1,I2,...,IN} = B, (I1,...,IN) must reference a single "
-"element of cell-array A."
+msgid "In expression A{I1,I2,...,IN} = B, (I1,...,IN) must reference a single element of cell-array A."
 msgstr ""
 
 msgid "setVectorContentsAsList not supported for sparse arrays."
@@ -2154,15 +2086,10 @@ msgstr "Un vecteur ligne attendu."
 msgid "A column vector expected."
 msgstr "Un vecteur colonne attendu."
 
-msgid ""
-"Number of field names must match number of values in structure constructor."
-msgstr ""
-"Nombre de noms de champs doit correspondre nombre de valeurs dans la "
-"structure constructeur."
+msgid "Number of field names must match number of values in structure constructor."
+msgstr "Nombre de noms de champs doit correspondre nombre de valeurs dans la structure constructeur."
 
-msgid ""
-"ArrayOf dimensions of non-scalar entries must agree in structure "
-"construction."
+msgid "ArrayOf dimensions of non-scalar entries must agree in structure construction."
 msgstr ""
 
 msgid "sparse arrays not supported for struct constructor."
@@ -2261,12 +2188,8 @@ msgstr ""
 msgid "Multiple rows not allowed in left hand side of multifunction expression"
 msgstr "Plusieurs lignes non autorisés dans gauche d'expression multifonction"
 
-msgid ""
-"Parenthetical expression in the left hand side of a function call must "
-"resolve to a single element."
-msgstr ""
-"Expression entre parenthèses dans le côté gauche d'un appel de fonction doit "
-"se résoudre à un seul élément."
+msgid "Parenthetical expression in the left hand side of a function call must resolve to a single element."
+msgstr "Expression entre parenthèses dans le côté gauche d'un appel de fonction doit se résoudre à un seul élément."
 
 msgid "Cannot use arguments in a call to a script."
 msgstr "Vous ne pouvez pas utiliser des arguments dans un appel à un script."
@@ -2322,12 +2245,10 @@ msgid "Wrong type for argument #3: logical expected."
 msgstr "Type incorrect pour l'argument #3: logical attendu."
 
 msgid "Wrong type for argument #1: sparse logical expected."
-msgstr ""
-"Type incorrect pour l'argument #1: matrice creuse de type logical attendu."
+msgstr "Type incorrect pour l'argument #1: matrice creuse de type logical attendu."
 
 msgid "Wrong type for argument #2: sparse logical expected."
-msgstr ""
-"Type incorrect pour l'argument #2: matrice creuse de type logical attendu."
+msgstr "Type incorrect pour l'argument #2: matrice creuse de type logical attendu."
 
 msgid "Wrong type for argument #1: double expected."
 msgstr "Type incorrect pour l'argument #1: double attendu."
@@ -2352,12 +2273,10 @@ msgid "Wrong type for argument #%d: double expected."
 msgstr "Type incorrect pour l'argument #%d: double attendu."
 
 msgid "Wrong type for argument #1: sparse double expected."
-msgstr ""
-"Type incorrect pour l'argument #1: matrice creuse de type double attendu."
+msgstr "Type incorrect pour l'argument #1: matrice creuse de type double attendu."
 
 msgid "Wrong type for argument #2: sparse double expected."
-msgstr ""
-"Type incorrect pour l'argument #1: matrice creuse de type double attendu."
+msgstr "Type incorrect pour l'argument #1: matrice creuse de type double attendu."
 
 msgid "Wrong type for argument #1: sparse expected."
 msgstr "Type incorrect pour l'argument #1: matrice creuse attendu."
@@ -2384,12 +2303,10 @@ msgid "Wrong size for argument #2. integer matrix expected."
 msgstr "Taille incorrect pour l'argument #2: matrice d'entier attendu."
 
 msgid "Wrong size for argument #1. integer n-d matrix expected."
-msgstr ""
-"Taille incorrect pour l'argument #1: n-dimension matrice d'entier attendu."
+msgstr "Taille incorrect pour l'argument #1: n-dimension matrice d'entier attendu."
 
 msgid "Wrong size for argument #2. integer n-d matrix expected."
-msgstr ""
-"Taille incorrect pour l'argument #2: n-dimension matrice d'entier attendu."
+msgstr "Taille incorrect pour l'argument #2: n-dimension matrice d'entier attendu."
 
 msgid "Same integer type expected."
 msgstr "Même type d'entier attendu."
@@ -2543,24 +2460,17 @@ msgid "Wrong value for argument #%d. Scalar integer value expected."
 msgstr "Mauvaise valeur pour l'argument #%d: scalaire entier attendu."
 
 msgid "Wrong value for argument #1. A finite scalar integer value expected."
-msgstr ""
-"Mauvaise valeur pour l'argument #1: Une valeur finie scalaire entier attendu."
+msgstr "Mauvaise valeur pour l'argument #1: Une valeur finie scalaire entier attendu."
 
 msgid "Wrong value for argument #2. A finite scalar integer value expected."
-msgstr ""
-"Mauvaise valeur pour l'argument #2: Une valeur finie scalaire entier attendu."
+msgstr "Mauvaise valeur pour l'argument #2: Une valeur finie scalaire entier attendu."
 
 #, c-format
 msgid "Wrong value for argument #%d. A finite scalar integer value expected."
-msgstr ""
-"Mauvaise valeur pour l'argument #%d: Une valeur finie scalaire entier "
-"attendu."
+msgstr "Mauvaise valeur pour l'argument #%d: Une valeur finie scalaire entier attendu."
 
-msgid ""
-"Wrong value for argument #1. A finite vector of integer values expected."
-msgstr ""
-"Mauvaise valeur pour l'argument #1: Un vecteur de valeurs finie entiere "
-"attendu."
+msgid "Wrong value for argument #1. A finite vector of integer values expected."
+msgstr "Mauvaise valeur pour l'argument #1: Un vecteur de valeurs finie entiere attendu."
 
 msgid "Wrong value for #1 :Invalid size."
 msgstr "Mauvaise valeur pour #1: taille non valide."
@@ -2583,12 +2493,10 @@ msgid "Wrong value for #%d argument. positive value expected."
 msgstr "Mauvaise valeur pour l'argument #%d: Une valeur positive attendu."
 
 msgid "Wrong value for #1 argument. a must be higher than b ([a,b])."
-msgstr ""
-"Mauvaise valeur pour l'argument #1: a doit être supérieure à b ([a, b])."
+msgstr "Mauvaise valeur pour l'argument #1: a doit être supérieure à b ([a, b])."
 
 msgid "Wrong value for #2 argument. a must be higher than b ([a,b])."
-msgstr ""
-"Mauvaise valeur pour l'argument #2: a doit être supérieure à b ([a, b])."
+msgstr "Mauvaise valeur pour l'argument #2: a doit être supérieure à b ([a, b])."
 
 msgid "Interrupt (ctrl-c) encountered."
 msgstr "Interruption (ctrl-c) rencontrée."
@@ -2602,24 +2510,8 @@ msgstr "Dimensions concaténées ne concordent pas."
 msgid "Fieldnames in structs must match."
 msgstr "Noms des champs dans les structs doivent correspondre."
 
-msgid ""
-"For bugs and requests, please <a href=\""
-"mailto:nelson.numerical.computation@gmail.com\">email me</a>."
-msgstr ""
-"Pour les bugs et les demandes, Merci de m'écrire <a href=\""
-"mailto:nelson.numerical.computation@gmail.com\">en cliquant ici</a>."
-
-msgid ""
-"For bugs and requests, please mailto: nelson.numerical.computation@gmail.com"
-msgstr ""
-"Pour les bugs et les demandes, s'il vous plaît, écrivez-moi : "
-"nelson.numerical.computation@gmail.com"
-
 msgid "assert_checkerror fails."
 msgstr ""
-
-msgid "Wrong number of input arguments2."
-msgstr "Nombre incorrect d'arguments d'entrée."
 
 msgid "assert_isfalse fails."
 msgstr ""
@@ -2708,8 +2600,14 @@ msgstr "un nom de module valide attendu."
 msgid "a cell of modules name."
 msgstr "une cell de nom de modules."
 
+msgid "\"all\", \"all_tests\", \"unitary_tests\", \"nonreg_tests\", \"benchs\" expected as second input arguments."
+msgstr ""
+
 msgid "option not managed."
 msgstr "option non gérée."
+
+msgid "test failed"
+msgstr ""
 
 msgid "Summary:"
 msgstr "Résumé:"
@@ -2726,6 +2624,9 @@ msgstr ""
 msgid "Skipped:"
 msgstr ""
 
+msgid "Benchs:"
+msgstr ""
+
 msgid "Time:"
 msgstr "Temps écoulé:"
 
@@ -2734,3 +2635,4 @@ msgstr ""
 
 msgid "output res and ref are not equal."
 msgstr ""
+
